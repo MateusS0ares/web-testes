@@ -1,0 +1,124 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  margin-top: 50px;
+}
+
+#home-principal {
+  background-color: blue;
+}
+
+section#listas-testes {
+  margin-left: 200px;
+}
+
+#listas-testes {
+  margin: 50px;
+  /*background: grey;*/
+}
+#listas-testes ul li {
+  padding: 15px;
+  border-radius: 0.75rem;
+  color: white;
+  list-style: none;
+  margin: 15px;
+  background: rgba(17, 24, 39, 1);
+}
+#listas-testes ul li a {
+  margin-left: 70%;
+  border-radius: 1.2rem;
+  padding: 10px;
+  box-shadow: 2px 2px 3px black;
+  background: grey;
+}
+
+#lista-nome-testes li span {
+  text-transform: uppercase;
+}
+
+/* Botão Criar Teste */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 19px;
+  color: black;
+  z-index: 1;
+}
+
+.button:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  -ms-transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  -webkit-transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  -webkit-transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  -ms-transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #39bda7;
+  border-radius: 50%;
+  display: block;
+  -webkit-transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button:hover {
+  color: #ffffff;
+  border: 1px solid #39bda7;
+}
+
+.button:hover:before {
+  top: -35%;
+  background-color: #39bda7;
+  -webkit-transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  -ms-transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button:hover:after {
+  top: -45%;
+  background-color: #39bda7;
+  -webkit-transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  -ms-transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+/* Botão Criar Teste */
+.sign {
+  display: block;
+  width: 150px;
+  background-color: rgba(167, 139, 250, 1);
+  padding: 0.75rem;
+  text-align: center;
+  color: rgba(17, 24, 39, 1);
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+}

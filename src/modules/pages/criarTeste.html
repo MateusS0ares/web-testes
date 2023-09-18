@@ -1,0 +1,94 @@
+<html>
+  <html lang="pt-BR"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Website para criação de testes." />
+    <meta
+      name="author"
+      content="Murillo Cardoso, Márcio de Godoi e Mateus Soares"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Página de Perguntas</title>
+
+    <!--CSS Personalizado-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/criarTeste.css" />
+
+    <!--Bootstrap 5-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--FA icons-->
+    <script
+      src="https://kit.fontawesome.com/dcb4a876f8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-cinzaclaro">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="/home" class="navbar-brand">
+          <i class="fa-sharp fa-solid fa-scroll"></i> Testes
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav">
+            <a href="/home" class="nav-item nav-link">Home</a>
+            <a href="/lista" class="nav-item nav-link">Meus Testes</a>
+            <a href="/resultados" class="nav-item nav-link">Resultados</a>
+          </div>
+          <div class="navbar-nav ms-auto">         <a class="nav-item nav-link" id="name-user">Olá, Anônimo</a>
+            <a href="/logout" class="nav-item nav-link">
+              Sair <i class="fa-solid fa-right-from-bracket"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="form-container mx-auto mt-5">
+      <p class="title">Criação de teste</p>
+      <form class="form">
+        <div class="input-group">
+          <label for="nome-teste">Nome do teste</label>
+          <input
+            type="text"
+            name="nome-teste"
+            id="nome-teste"
+            placeholder="Insira o nome do teste"
+          />
+        </div>
+        <div class="input-group">
+          <ul id="perguntas"></ul>
+        </div>
+        <div class="input-group">
+          <div class="row p-2 justify-content-center">
+            <div class="col-md-6">
+              <button id="adicionar-pergunta" class="sign">
+                Adicionar pergunta
+              </button>
+            </div>
+            <div class="col-md-6">
+              <button id="finalizar-teste" class="sign">Finalizar teste</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- Chamar Nome -->
+    <script src="../../core/home.js"></script>
+    <!-- Testes -->
+    <script src="../../core/testes.js"></script>
+  </body>
+</html>

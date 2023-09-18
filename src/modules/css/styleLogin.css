@@ -1,0 +1,17 @@
+body{
+background-image: url("https://wallpaperaccess.com/full/3046483.jpg");
+background-size: cover;
+}
+label{
+    font-size: 22px;
+
+     font-weight: bolder;
+}
+#background-form{
+    box-shadow: 2px 5px 100px black;
+    justify-content: center;
+    margin: 50PX;
+    padding: 50PX;
+    background: rgb(200, 200, 200);
+    border-radius: 1.2rem;
+}

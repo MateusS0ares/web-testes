@@ -1,0 +1,30 @@
+h3{
+    color: azure;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: flex;
+}
+#resposta{display: flex;
+color: azure;
+}
+
+#resposta li label{
+    color: azure;
+}
+
+.btn-perguntas {
+    display: inline;
+    width: 200px;
+    text-align: center;
+    background-color: rgba(167, 139, 250, 1);
+    padding: 0.75rem;
+    text-align: center;
+    color: rgba(17, 24, 39, 1);
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 600;
+  }

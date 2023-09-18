@@ -1,0 +1,28 @@
+{
+  "usuario": [
+    {
+      "idUser": 0,
+      "NameUser": "Murillo",
+      "emailUser": "m@gmail.com",
+      "passwordUser": "123"
+    },
+    {
+      "idUser": 1,
+      "NameUser": "awdawd",
+      "emailUser": "a@gmail.com",
+      "passwordUser": "123"
+    },
+    {
+      "idUser": 2,
+      "NameUser": "julio",
+      "emailUser": "julio@gmail.com",
+      "passwordUser": "123"
+    },
+    {
+      "idUser": 3,
+      "NameUser": "a",
+      "emailUser": "g@gmail.com",
+      "passwordUser": "123"
+    }
+  ]
+}
